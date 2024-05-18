@@ -16,6 +16,7 @@ import com.ritesh.test_ci_checks.ui.theme.TestGithubCIChecksTheme
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
+    
     enableEdgeToEdge()
     setContent {
       TestGithubCIChecksTheme {
